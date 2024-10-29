@@ -97,7 +97,7 @@ module Fastlane
 
             params[:message] ||= (version_code ? "Version Bump to #{version_code}" : "Version Bump")
 
-            Actions.sh("git -C #{repo_path} commit -m '#{params[:message]}'")
+            Actions.sh("git -C #{repo_path} commit -m \"#{params[:message]}\"")
 
             UI.success("Committed \"#{params[:message]}\" 💾.")
         rescue => ex
