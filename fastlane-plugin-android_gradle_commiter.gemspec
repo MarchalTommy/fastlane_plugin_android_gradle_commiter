@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email         = '70965412+MarchalTommy@users.noreply.github.com'
 
   spec.summary       = 'This plugin is a copy of Jems22 commit_android_version_bump but this one will allow the build.gradle.kts, as the original plugin seems discontinued'
-  # spec.homepage      = "https://github.com/<GITHUB_USERNAME>/fastlane-plugin-android_gradle_commiter"
+  # spec.homepage      = "https://github.com/MarchalTommy/fastlane-plugin-android_gradle_commiter"
   spec.license       = "MIT"
 
   spec.files         = Dir["lib/**/*"] + %w(README.md LICENSE)
